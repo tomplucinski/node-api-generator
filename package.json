@@ -1,0 +1,25 @@
+{
+  "name": "base-express-api",
+  "version": "1.0.0",
+  "description": "Project encompasing baseline tools to build an API with Typescript and Express",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.0",
+    "prettier": "^2.6.2"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "mustache": "^4.2.0",
+    "zx": "^6.2.4"
+  },
+  "author": "Tom Plucinski",
+  "license": "ISC"
+}
