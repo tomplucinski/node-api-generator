@@ -1,7 +1,7 @@
 {
   "name": "base-express-api",
   "version": "1.0.0",
-  "description": "Project encompasing baseline tools to build an API with Typescript and Express",
+  "description": "Project that generates baseline tools to build an API with Typescript and Express",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
